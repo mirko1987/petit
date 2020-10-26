@@ -1,0 +1,300 @@
+/* RESET CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+/* END RESET CSS */
+
+
+body{
+	
+}
+
+
+
+@font-face {
+  font-family: DomaineDisplay-BoldItalic;
+  src: url("../font/DomaineDisplay-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: DomaineDisplay-Extrabold;
+  src: url("../font/DomaineDisplay-Extrabold.otf");
+}
+
+@font-face {
+  font-family: MarkPro;
+  src: url("../font/MarkPro.otf");
+}
+@font-face {
+  font-family: MarkPro-Medium;
+  src: url("../font/MarkPro-Medium.otf");
+}
+
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+	 justify-content: center;background-color: #fdfdfd;
+	margin-bottom: 40px
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 270px;
+  margin: 10px;
+  text-align: center;
+}
+.banner-top{
+  height:auto;
+  min-height: 400px;
+  width:100%;
+}
+
+
+
+.text{
+   padding-bottom: 13px !important;
+}
+
+.main-box{
+	background-color: white;
+    width: 50%;
+    text-align: center;
+    height: auto;
+    min-height: 200px;
+    position: absolute;
+    left: 25%;
+    padding: 40px;
+    top: 150px;
+    border-radius: 10px;
+	border: 1px solid #eceff1;
+	
+	
+	
+}
+.main-box h1{
+	font-size: 58px;
+	font-family: DomaineDisplay-Extrabold;
+	color:#ed3436;
+	
+}
+.main-box p{
+	font-size: 16px;
+	color: #37474f;
+	font-family: MarkPro;
+}
+
+.genral_box{
+	background-color: white;
+	border: 1px solid #eceff1;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;*/
+
+	width: 270px;
+	height: 310px;
+	 border-radius: 10px;
+	
+}
+
+.first p{
+		font-family: MarkPro;
+	font-size: 11px; 
+	padding-bottom: 20px;
+}
+.second h2{
+	font-size: 28px;
+	font-family: DomaineDisplay-BoldItalic;
+	color: #37474f;
+		padding-bottom: 20px;
+}
+.third p{
+	font-size: 14px;
+		font-family: MarkPro;
+		padding-bottom: 20px;
+}
+
+
+.but1{
+    background-color: #ffb840; /* Green */
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+	color: white;
+}
+
+
+.but2{
+    background-color: #96a602; /* Green */
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+	color: white;
+
+}
+.but3{
+    background-color: #f2987a; /* Green */
+    border: none;
+     padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+	color: white;
+
+}
+.but4{
+    background-color: #d22e1c; /* Green */
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+	color: white;
+
+}
+.but5{
+    background-color: #d22e1c; /* Green */
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+	color: white;
+
+
+}
+.but6{
+
+    background-color: #90230d; /* Green */
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+	color: white;
+
+}
+.but7{
+
+    background-color: #eb6907; /* Green */
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+	color: white;
+
+}
+
+
+
